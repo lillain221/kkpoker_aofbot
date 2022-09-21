@@ -1,26 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>全自動AOFbotを作るぞ！【KKPOKER】【プログラミング】【ギャンブル】</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="description" content="KKPOKER内AOFをナッシュ均衡に沿って全自動でプレイするbotを作りました。この動画は AOFbotの実装動画です。" />
-    <meta property="og:title" content="全自動AOFbotを作るぞ！【KKPOKER】"/>
-    <meta property="og:type" content="blog" />
-    <meta property="og:url" content="https://www.tysons.jp/tyharbor/"/>
-    <meta property="og:image" content="https://www.tysons.jp/tyharbor/wp-content/themes/build/images/tyharbor/icon/ogp-768.png" />
-    <meta property="image_src" content="https://www.tysons.jp/tyharbor/wp-content/themes/build/images/tyharbor/icon/ogp-768.png" />
-    <meta property="og:site_name" content="全自動AOFbotを作るぞ！【KKPOKER】"/>
-    <meta property="og:description" content="KKPOKER内AOFをナッシュ均衡に沿って全自動でプレイするbotを作りました。"/>
-    <meta http-equiv="Content-Type" content="text/html; charset=shift_jis" />
-    <meta http-equiv="content-script-type" content="text/javascript" />
-    <meta http-equiv="content-style-type" content="text/css" />
-    <meta http-equiv="imagetoolbar" content="no" />
-    <meta name="auther" content="KKPOKER-AOFbot" />
-    <meta name="keywords" content="KKPOKER,AOFbot,AOFボット,オンカジ,ポーカー,KKポーカー,AOFレンジ" />
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
+  <%= display_meta_tags site: 'KKAOFbot購入', title: @title, description: @description, keywords: @keywords %>
+
 
     <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
     <%= javascript_importmap_tags %>
